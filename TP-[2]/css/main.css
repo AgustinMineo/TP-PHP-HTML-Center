@@ -1,0 +1,78 @@
+form{
+    margin-top: 70px;
+}
+.general-form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0px 0px 18px 18px;
+    border: 2px solid gray;
+    border-radius: 13px;
+}
+.general-form>h1 {
+    text-align: center;
+}
+.basicInformation > label{
+    font-size: 20px;
+}
+.basicInformation > input{
+    width: 92%;
+    height: 23px;
+    background-color: #e8eeef;
+    border: none;
+}
+.titleForm{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.numberInfo {
+    background-color: #5fcf80;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #5fcf80;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.genders{
+    margin: 5px 0px 5px 0px;
+}
+.buttonsActions {
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -20px;
+    padding-right: 15px;
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.interest-areas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.buttonsActions>input {
+    border: 1px solid #5fcf80;
+    border-radius: 14px;
+    width: 100%;
+    height: 90px;
+    background-color: #5fcf80;
+    color: white;
+    font-size: 20px;
+    margin: 4px;
+}
+.role{
+    font-size: 20px;
+    width: 100%;
+}
+.about >h3{
+    margin-bottom: 5px;
+}

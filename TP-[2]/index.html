@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Trabajo Practico N° 2</title>
+  </head>
+
+  <body>
+    <form action="">
+      <div class="general-form">
+        <h1>Contact Form</h1>
+        <div class="basicInformation">
+          <div class="titleForm">
+            <div class="numberInfo">1</div>
+            Your basic info
+          </div>
+          <label for="name">Name</label><br/>
+          <input type="text" id="name"/><br/>
+          <label for="Email">Email</label><br/>
+          <input type="text" /><br />
+          <label for="password">Password</label><br/>
+          <input type="password" /><br />
+          <label for="bithday">Bithday</label><br/>
+          <input type="text" placeholder="dd/mm/aaaa"/><br />
+          <div class="genders">
+            <span>Gender : </span>
+            <input type="radio" name="gender" id="male"/>
+            <label>Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label>Female</label>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="titleForm">
+            <span class="numberInfo">2</span>
+            Your profile
+          </div>
+          <div class="about">
+              <h3>About you</h3>
+              <textarea type="textarea" rows="4" cols="70"></textarea>
+              <div class="role">
+                  <span>Role</span>
+                  <select name="select" id="select" style="width: 100%; font-size: 20px; height: 30px;">
+                      <option value="front-Developer">Front-End Developer</option>
+                      <option value="back-End">Back-End Developer</option>
+                      <option value="qa">Quality Assurance</option>
+                      <option value="cloud-development">Cloud Development</option>
+                    </select>
+                </div>
+            </div>
+            <div class="interest-areas">
+              <div style="width: 100%; margin: -20px;"><h5>Interests</h5></div>
+            <div value="design">
+                <input type="checkbox" />
+                <label>Design</label>
+            </div>
+            <div id="business">
+                <input type="checkbox" />
+                <label>Business</label>
+            </div>
+            <div id="unitTest">
+                <input type="checkbox" />
+                <label>Unit Test</label>
+            </div>
+            <div id="cloudDevelopment">
+                <input type="checkbox" />
+                <label>Cloud Development</label>
+            </div>
+            <div id="webDevelopment">
+                <input type="checkbox" />
+                <label>Web Development</label>
+            </div>
+          </div>
+        </div>
+        <div class="buttonsActions">
+          <input type="submit" value="Send" />
+          <input type="submit" value="Reset" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
